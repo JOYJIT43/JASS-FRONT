@@ -1,0 +1,50 @@
+<!-- <img src="./assets/images/bgimg.jpg" alt="Notebook" style="width:100%;"> -->
+
+<body class="body">
+
+  <div class="container">
+    <div class="topnav">
+      <a style="margin-left:30px ;font-size:25px;color: rgb(255, 238, 0);" class="active" href="#home">
+        <h3>JASS</h3>
+      </a>
+    </div>
+
+    <img class="nice" src="./assets/images/bgimg.jpg" alt="Notebook">
+
+
+    <div class="bg-text">
+      <h1>SIGN UP</h1>
+      <div class="col form-group">
+        <input id="fn" type="text" class="form-control-fn" formControlName="first_name" placeholder="First name">
+        <input type="text" class="form-control-mn" formControlName="middle_name" placeholder="Middle name">
+        <input type="text" class="form-control-ln" formControlName="last_name" placeholder="Last name">
+      </div>
+      <div class="col input-group">
+        <div class="input-group-text">@
+        </div>
+        <input
+          type="email" class="form-control-email" formControlName="email" placeholder="Email Address">
+
+      </div>
+      <div class="col">
+        <input
+          type="password" class="form-control-pass" formControlName="password" placeholder="Password">
+      </div>
+      <div class="row col-sm-10">
+        <div class="col">
+          <input
+            type="text" class="form-control-sq" formControlName="security_ques" placeholder="User Security Question?">
+        </div>
+        <div class="col">
+          <input
+            type="text" class="form-control-sa" formControlName="security_ans" placeholder="User Security Answer.">
+        </div>
+      </div><br>
+      <div>
+        <button mat-raised-button color="accent" class="reg_button" type="submit">Register</button>
+        <p>Already a JASS User? </p>
+        <button class="log_button" mat-raised-button color="accent">Login</button>
+      </div>
+    </div>
+  </div>
+</body>

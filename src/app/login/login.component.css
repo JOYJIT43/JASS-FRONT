@@ -1,0 +1,94 @@
+/* Add a black background color to the top navigation */
+/* '/assets/images/bgimg.jpg' */
+
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  /* background-color:transparent; */
+  width: 100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0%;
+}
+  /* /------------------------------- */
+   .body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: avro;
+    width: 100%;
+    /* background-image: url('/assets/images/bgimg.jpg'); */
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.705); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 58%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 350px;
+    padding: 20px;
+    text-align: center;
+  }
+  /* .col form-group{
+    position: absolute;
+    top: 10px;
+  } */
+  .pos{
+    text-align: center;
+}
+input.ng-invalid{
+    border-right: 5px solid red;
+}
+.log_button {
+  transition-duration: 0.4s;
+  color: #ffffff;
+  position: absolute;
+  top:275px;
+  left:295px;
+  width: 130px;
+  height: 40px;
+  background-color:#fbff00;
+  color: #000000;
+  /* border: 2px solid #4CAF50; Green */
+
+  border-radius: 5px 5px 5px 5px;
+  
+}
+
+.log_button:hover {
+  background-color: #000000;/* Green */
+  color:yellow;
+  font-size: large;
+  transform: scale(1.15);
+}
+.dash
+{
+  position: absolute;
+  top:320px;
+  left: 500px;
+}
+p{
+  position: absolute;
+  top:398px;
+  left:300px;
+  color: rgb(255, 238, 0);
+}

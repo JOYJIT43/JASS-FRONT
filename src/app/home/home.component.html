@@ -1,0 +1,75 @@
+<body>
+    <div class="topnav">
+        <a style="margin-left:30px ;font-size:25px;color: rgb(255, 238, 0);" class="active" href="#home"><h3 id = "head" >JASS</h3></a>
+        <button id = "Signup"style="position : absolute;left:150px;top:14px"type="button" class="btn btn-outline-warning">Signup</button>
+        <button id ="Cookie" style="position : absolute;left:240px;top:14px"type="button" class="btn btn-outline-warning">Cookie</button>
+      </div>
+<div class ="slider">    
+<ngb-carousel id="whole" *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h1 style="position: absolute;bottom: 250px;left:20%;color:yellow"><i style="color:rgb(0, 0, 0);">A Very Warm Welcome To <b>JASS</b> </i></h1>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img  class="chobi"[src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>The Best Online Learning Platform</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Get Video Lectures</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img  class="chobi" [src]="images[3]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Get Assignments reviwed by Mentors</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[4]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3 style="color: rgb(0, 0, 0);">Create Your Account Now!</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[5]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3 style="color:black;">Go Digital!</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[6]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3 style="color: black;">Fall in Love with Learning</h3>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="chobi" [src]="images[7]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3 style="position: absolute;bottom: 250px;left:47%">See You Inside!</h3>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>
+</body>
