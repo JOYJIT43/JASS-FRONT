@@ -23,7 +23,7 @@
   margin: 0%;
 }
   /* /------------------------------- */
-   .body{
+   body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@ input.ng-invalid{
   color: #ffffff;
   position: absolute;
   top:275px;
-  left:295px;
+  left:282px;
   width: 130px;
   height: 40px;
   background-color:#fbff00;

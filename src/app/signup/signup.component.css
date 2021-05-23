@@ -22,7 +22,7 @@
   margin: 0%;
 }
   /* /------------------------------ */
-   .body{
+   body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ input.ng-invalid{
 }
 p{
   position: absolute;
-  top:425px;
+  top:427px;
   left:300px;
   color: rgb(255, 238, 0);
 }
