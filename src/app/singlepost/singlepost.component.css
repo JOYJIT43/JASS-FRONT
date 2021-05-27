@@ -28,14 +28,7 @@
     color:#f5f5dc;
 
   }
-  .body{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    /* background-image: url('/assets/images/bgimg.jpg'); */
-  }
+ 
   .bottam{
     position: absolute;
     top:49%;
@@ -64,23 +57,7 @@
    left:41%;
 }
 
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.664); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    /* border: 3px solid #f1f1f1; */
-    position: absolute;
-    top: 60%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 70%;
-    height: 600px;
-    padding: 20px;
-    text-align: center;
-  }
-
+  
 .smGlobalBtn {
     /* global button class */
     display: inline-block;
@@ -275,24 +252,58 @@
     margin: 5px 2px;
   }
    */.boxed{
-  border: 2px solid rgb(0, 0, 0) ;
+  border: 2px solid rgb(255, 251, 0) ;
   width:1000px;
   height:250px;
-  margin-left: 19.5ch;
+  margin-left: 12ch;
   margin-top: 2%;
   /* border-radius: 1% 1% 1% 1%; */
   border-radius: 10px;
 }
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.568); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    /* border: 3px solid #f1f1f1; */
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    height:800px;
+    padding: 20px;
+    text-align: center;
+  }
+
 .video{
    margin: 50% 90px 2px 2px;
 }
 h4{
-    margin-left: 12%;
+    margin-left: -78%;
     margin-top: 1%;
 }
 hr{
     margin-top: 13%;
+    color: #ffffff;
 }
+
 body{
     font-family: avro;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    /* background-image: url('/assets/images/bgimg.jpg'); */
+  }
+.nice
+{
+  height: 1000px;
+  width: 100%;
+}
+subhead
+{
+   margin-left: 1px;
 }
