@@ -252,7 +252,7 @@
     margin: 5px 2px;
   }
    */.boxed{
-  border: 2px solid rgb(255, 251, 0) ;
+  border: 2px solid rgb(0, 255, 221) ;
   width:1000px;
   height:250px;
   margin-left: 12ch;
@@ -262,12 +262,12 @@
 }
 .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.568); /* Black w/opacity/see-through */
-    color: white;
+    background-color: rgba(0, 0, 0, 0.658); /* Black w/opacity/see-through */
+    color: rgb(255, 230, 0);
     font-weight: bold;
     /* border: 3px solid #f1f1f1; */
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 51%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -275,6 +275,8 @@
     height:800px;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
+    border:2px solid #ffe600;
   }
 
 .video{
@@ -303,7 +305,21 @@ body{
   height: 1000px;
   width: 100%;
 }
-subhead
+/* .txt
 {
-   margin-left: 1px;
+   position: relative;
+   left: 20%;
+
+} */
+.txt
+{
+    position: relative;
+    left:-35%;
+    top:10%;
+    text-align: left;
+    color: #F5F5DC;
+}
+hr{
+    border:1px solid rgb(0, 255, 221);
+    position: relative;
 }

@@ -38,7 +38,7 @@
   }
   .bottam{
     position: absolute;
-    top:49%;
+    top:56%;
     left:55%;
 
 
@@ -71,7 +71,7 @@
     font-weight: bold;
     /* border: 3px solid #f1f1f1; */
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 40%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -79,6 +79,7 @@
     height: 600px;
     padding: 20px;
     text-align: center;
+    border:2px solid #ffe600;
   }
 
 .smGlobalBtn {
@@ -107,7 +108,7 @@
 /* facebook button class*/
 
 .facebookBtn {
-    background: #BDBDBD;
+    background: #1433bd;
 }
 
 .facebookBtn:before {
@@ -128,7 +129,7 @@
 /* twitter button class*/
 
 .twitterBtn {
-    background: #BDBDBD;
+    background: #2c8ebb;
 }
 
 .twitterBtn:before {
@@ -147,7 +148,7 @@
 /* google plus button class*/
 
 .googleplusBtn {
-    background: #BDBDBD;
+    background: #c42f2f;
 }
 
 .googleplusBtn:before {
@@ -166,7 +167,7 @@
 /* linkedin button class*/
 
 .linkedinBtn {
-    background: #BDBDBD;
+    background: #2363b8;
 }
 
 .linkedinBtn:before {
@@ -185,7 +186,7 @@
 /* pinterest button class*/
 
 .pinterestBtn {
-    background: #BDBDBD;
+    background: #7ac4b4;
 }
 
 .pinterestBtn:before {
@@ -204,7 +205,7 @@
 /* tumblr button class*/
 
 .tumblrBtn {
-    background: #BDBDBD;
+    background: #20c944;
 }
 
 .tumblrBtn:before {
@@ -223,7 +224,7 @@
 /* rss button class*/
 
 .rssBtn {
-    background: #BDBDBD;
+    background: #c27818;
 }
 
 .rssBtn:before {

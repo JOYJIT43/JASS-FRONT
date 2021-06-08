@@ -47,6 +47,7 @@
     height: 350px;
     padding: 20px;
     text-align: center;
+    border:2px solid rgb(200, 255, 0);
   }
   /* .col form-group{
     position: absolute;
@@ -66,7 +67,7 @@ input.ng-invalid{
   left:282px;
   width: 130px;
   height: 40px;
-  background-color:#fbff00;
+  background-color:rgb(200, 255, 0);
   color: #000000;
   /* border: 2px solid #4CAF50; Green */
 
